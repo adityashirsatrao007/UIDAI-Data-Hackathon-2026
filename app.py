@@ -11,23 +11,7 @@ st.set_page_config(
 )
 
 # Custom CSS for a "Pro" look
-st.markdown("""
-    <style>
-    .main {
-        background-color: #f5f5f5;
-    }
-    .stMetric {
-        background-color: white;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    h1 {
-        color: #2c3e50;
-        font-family: 'Helvetica Neue', sans-serif;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+# Custom CSS removed for better Dark Mode support by Streamlit native theme
 
 # Sidebar: Developer Persona
 with st.sidebar:
