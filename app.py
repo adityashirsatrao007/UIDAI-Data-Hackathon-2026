@@ -42,7 +42,7 @@ st.caption("Strategic Decision Support System | Predictive Analytics & Anomaly D
 # Load Data
 @st.cache_data
 def load_data():
-    base_dir = r"z:\UIDAI\analysis_results"
+    base_dir = "analysis_results"
     
     # 1. Cluster Data
     cluster_path = os.path.join(base_dir, "district_clusters.csv")
